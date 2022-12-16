@@ -1,1 +1,1 @@
-# publicgoods_review_webapp
+# publicgoods-review-webapp
