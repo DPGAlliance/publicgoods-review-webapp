@@ -1,0 +1,6 @@
+<p><span style="font-weight: 400;">Hello <?php echo $applicant_name; ?>,</span></p>
+<p><span style="font-weight: 400;">We&rsquo;ve completed reviewing your DPG application for <?php echo $solution_name; ?> (<?php echo $application_id; ?>) and found that it does not meet one or more indicators of the </span><a href="https://digitalpublicgoods.net/standard/"><span style="font-weight: 400;">DPG Standard</span></a><span style="font-weight: 400;"> at this time.</span></p>
+<p><span style="font-weight: 400;">You can </span><a href="https://app.digitalpublicgoods.net/login"><span style="font-weight: 400;">login here and view your application</span></a><span style="font-weight: 400;"> to see which requirements need to be met.</span></p>
+<p><span style="font-weight: 400;">We encourage you to keep working towards meeting all the requirements and apply with a new application when you are ready.</span></p>
+<p><span style="font-weight: 400;">We hope to see your application again in the near future.</span></p>
+<p><span style="font-weight: 400;">Nathan Baleeta</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">DPGA Technical Coordinator</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">support@digitalpublicgoods.net</span></p>

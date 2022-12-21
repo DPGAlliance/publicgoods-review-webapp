@@ -1,0 +1,3 @@
+<p><span style="font-weight: 400;">Hi <?php echo $expert_name; ?>,</span></p>
+<p><span style="font-weight: 400;"><?php echo $reviewer_name; ?> have requested your inputs on <?php echo $section_name; ?> of <?php echo $solution_name; ?> (<?php echo $application_id; ?>).</span></p>
+<p><span style="font-weight: 400;">Please </span><a href="<?php echo $login_link; ?>"><span style="font-weight: 400;">login &amp; send your inputs</span></a><span style="font-weight: 400;">.</span></p>
