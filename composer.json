@@ -1,111 +1,44 @@
 {
-    "name": "phpoffice/phpspreadsheet",
-    "description": "PHPSpreadsheet - Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",
-    "keywords": [
-        "PHP",
-        "OpenXML",
-        "Excel",
-        "xlsx",
-        "xls",
-        "ods",
-        "gnumeric",
-        "spreadsheet"
-    ],
-    "config": {
-        "sort-packages": true,
-        "allow-plugins": {
-            "dealerdirect/phpcodesniffer-composer-installer": true
-        }
-    },
-    "homepage": "https://github.com/PHPOffice/PhpSpreadsheet",
+    "name": "ezyang/htmlpurifier",
+    "description": "Standards compliant HTML filter written in PHP",
     "type": "library",
-    "license": "MIT",
+    "keywords": ["html"],
+    "homepage": "http://htmlpurifier.org/",
+    "license": "LGPL-2.1-or-later",
     "authors": [
         {
-            "name": "Maarten Balliauw",
-            "homepage": "https://blog.maartenballiauw.be"
-        },
-        {
-            "name": "Mark Baker",
-            "homepage": "https://markbakeruk.net"
-        },
-        {
-            "name": "Franck Lefevre",
-            "homepage": "https://rootslabs.net"
-        },
-        {
-            "name": "Erik Tilt"
-        },
-        {
-            "name": "Adrien Crivelli"
+            "name": "Edward Z. Yang",
+            "email": "admin@htmlpurifier.org",
+            "homepage": "http://ezyang.com"
         }
     ],
-    "scripts": {
-        "check": [
-            "php-cs-fixer fix --ansi --dry-run --diff",
-            "phpcs",
-            "phpunit --color=always",
-            "phpstan analyse --ansi"
-        ],
-        "fix": [
-            "php-cs-fixer fix --ansi"
-        ],
-        "versions": [
-            "phpcs --report-width=200 samples/ src/ tests/ --ignore=samples/Header.php --standard=PHPCompatibility --runtime-set testVersion 7.3- -n"
-        ]
-    },
     "require": {
-        "php": "^7.3 || ^8.0",
-        "ext-ctype": "*",
-        "ext-dom": "*",
-        "ext-fileinfo": "*",
-        "ext-gd": "*",
-        "ext-iconv": "*",
-        "ext-libxml": "*",
-        "ext-mbstring": "*",
-        "ext-simplexml": "*",
-        "ext-xml": "*",
-        "ext-xmlreader": "*",
-        "ext-xmlwriter": "*",
-        "ext-zip": "*",
-        "ext-zlib": "*",
-        "ezyang/htmlpurifier": "^4.15",
-        "maennchen/zipstream-php": "^2.1",
-        "markbaker/complex": "^3.0",
-        "markbaker/matrix": "^3.0",
-        "psr/http-client": "^1.0",
-        "psr/http-factory": "^1.0",
-        "psr/simple-cache": "^1.0 || ^2.0 || ^3.0"
+        "php": "~5.6.0 || ~7.0.0 || ~7.1.0 || ~7.2.0 || ~7.3.0 || ~7.4.0 || ~8.0.0 || ~8.1.0 || ~8.2.0"
     },
     "require-dev": {
-        "dealerdirect/phpcodesniffer-composer-installer": "dev-master",
-        "dompdf/dompdf": "^1.0 || ^2.0",
-        "friendsofphp/php-cs-fixer": "^3.2",
-        "mitoteam/jpgraph": "10.2.4",
-        "mpdf/mpdf": "8.1.1",
-        "phpcompatibility/php-compatibility": "^9.3",
-        "phpstan/phpstan": "^1.1",
-        "phpstan/phpstan-phpunit": "^1.0",
-        "phpunit/phpunit": "^8.5 || ^9.0",
-        "squizlabs/php_codesniffer": "^3.7",
-        "tecnickcom/tcpdf": "6.5"
-    },
-    "suggest": {
-        "ext-intl": "PHP Internationalization Functions",
-        "mpdf/mpdf": "Option for rendering PDF with PDF Writer",
-        "dompdf/dompdf": "Option for rendering PDF with PDF Writer",
-        "tecnickcom/tcpdf": "Option for rendering PDF with PDF Writer",
-        "mitoteam/jpgraph": "Option for rendering charts, or including charts with PDF or HTML Writers"
+        "cerdic/css-tidy": "^1.7 || ^2.0",
+        "simpletest/simpletest": "dev-master"
     },
     "autoload": {
-        "psr-4": {
-            "PhpOffice\\PhpSpreadsheet\\": "src/PhpSpreadsheet"
-        }
+        "psr-0": { "HTMLPurifier": "library/" },
+        "files": ["library/HTMLPurifier.composer.php"],
+        "exclude-from-classmap": [
+            "/library/HTMLPurifier/Language/"
+        ]
     },
-    "autoload-dev": {
-        "psr-4": {
-            "PhpOffice\\PhpSpreadsheetTests\\": "tests/PhpSpreadsheetTests",
-            "PhpOffice\\PhpSpreadsheetInfra\\": "infra"
+    "suggest": {
+        "cerdic/css-tidy": "If you want to use the filter 'Filter.ExtractStyleBlocks'.",
+        "ext-iconv": "Converts text to and from non-UTF-8 encodings",
+        "ext-bcmath": "Used for unit conversion and imagecrash protection",
+        "ext-tidy": "Used for pretty-printing HTML"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ezyang/simpletest.git"
         }
-    }
+    ]
 }

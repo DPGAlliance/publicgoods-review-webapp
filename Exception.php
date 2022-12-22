@@ -1,26 +1,12 @@
 <?php
 
-namespace PhpOffice\PhpSpreadsheet\Calculation;
-
-use PhpOffice\PhpSpreadsheet\Exception as PhpSpreadsheetException;
-
-class Exception extends PhpSpreadsheetException
+/**
+ * Global exception class for HTML Purifier; any exceptions we throw
+ * are from here.
+ */
+class HTMLPurifier_Exception extends Exception
 {
-    /**
-     * Error handler callback.
-     *
-     * @param mixed $code
-     * @param mixed $string
-     * @param mixed $file
-     * @param mixed $line
-     * @param mixed $context
-     */
-    public static function errorHandlerCallback($code, $string, $file, $line, $context): void
-    {
-        $e = new self($string, $code);
-        $e->line = $line;
-        $e->file = $file;
 
-        throw $e;
-    }
 }
+
+// vim: et sw=4 sts=4
