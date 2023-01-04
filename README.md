@@ -10,14 +10,21 @@ The Webapp keeps track of the number of DPG applications being processed per day
 **Who have we made it for? - Users**
 We are building for 4 types of users
 
-**Applicants:**
+**1. Applicants:**
+
 They are authorised representatives of digital projects who wish to get their project listed as a DPG.
-**DPGA Reviewers**
+
+**2. DPGA Reviewers**
+
 These are members of the DPGA review team.
 They review applications and make pass/fail decisions for each indicator.
-**Public Reviewers:**
+
+**3. Public Reviewers:**
+
 This could be anyone on the internet who is interested in contributing to the review of applications.
-**Admin:**
+
+**4. Admin:**
+
 These are members of the DPGA management team who manage the review process and ensure timely review of applications.
 There will only be one admin account and access credentials will be shared among the relevant members.
 
