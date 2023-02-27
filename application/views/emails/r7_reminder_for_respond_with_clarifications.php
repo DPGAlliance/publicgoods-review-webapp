@@ -1,0 +1,5 @@
+<p><span style="font-weight: 400;">Hello <?php echo $applicant_name; ?>,</span></p>
+<p><span style="font-weight: 400;">This is a gentle reminder to respond to the clarifications requested. This is needed to approve <?php echo $solution_name; ?> (<?php echo $application_id; ?>)&nbsp; as a DPG.</span></p>
+<p><span style="font-weight: 400;">Please </span><a href="<?php echo $app_login_link; ?>"><span style="font-weight: 400;">login here to view and respond</span></a><span style="font-weight: 400;"> to the request for clarifications within <?php echo $clarifications_days; ?> days from the original date of request.</span></p>
+<p><span style="font-weight: 400;">If we do not receive a response within the time allotted, the application will be automatically closed and the solution will be removed from the DPG registry.</span></p>
+<p><span style="font-weight: 400;">Nathan Baleeta</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">DPGA Technical Coordinator</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">support@digitalpublicgoods.net</span></p>
