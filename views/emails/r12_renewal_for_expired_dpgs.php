@@ -1,7 +1,0 @@
-<p><span style="font-weight: 400;">Hello <?php echo $applicant_name; ?>,</span></p>
-<p><span style="font-weight: 400;">Once a year, all DPGs are required to have their solution re-reviewed to ensure compliance with the latest </span><a href="https://digitalpublicgoods.net/standard/"><span style="font-weight: 400;">DPG Standard</span></a><span style="font-weight: 400;">.</span></p>
-<p><span style="font-weight: 400;">The DPG status of <?php echo $solution_name; ?> (<?php echo $application_id; ?>) is expiring today.</span></p>
-<p><span style="font-weight: 400;">Please </span><a href="<?php echo $app_login_link; ?>"><span style="font-weight: 400;">login and submit a renewal application</span></a><span style="font-weight: 400;"> (by clicking the &lsquo;Create Renewal Application&rsquo; button).</span></p>
-<p><span style="font-weight: 400;">A new application will be automatically created &amp; pre-filled with previous answers for you to review and update.</span></p>
-<p><span style="font-weight: 400;">If you have any questions related to this, please reach out to our technical coordinator at </span><a href="mailto:support@digitalpublicgoods.net"><span style="font-weight: 400;">support@digitalpublicgoods.net</span></a><span style="font-weight: 400;">.</span></p>
-<p><span style="font-weight: 400;">Ricardo Miron</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">DPGA Community Coordinator</span></p>
