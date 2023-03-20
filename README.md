@@ -30,7 +30,10 @@ Our aim is to have 50 countries deploying at least 1 DPG each in the next 5 year
 
 **We *actively* encourage people to contribute to this project.** 
 
-Please see our Contributing Guidelines to learn more about how you can participate. Details about how this project can be deployed and its various configurations can be found in the file 'Tech Architechture' present in this repository. You can also get involved with the larger DPGA ecosystem in [other ways](https://digitalpublicgoods.net/get-involved/). 
+Please see our <a href="https://github.com/DPGAlliance/publicgoods-review-webapp/blob/main/ContributingGuidelines.md">Contributing Guidelines </a> to learn more about how you can participate. 
+<br><br> To understand how to navigate through this repository and its files, please view our <a href="https://github.com/DPGAlliance/publicgoods-review-webapp/blob/main/RepositoryGuide.md"> Repository Guide</a> 
+<br><br>Details about how this project can be deployed and the various software used can be found in the file <a href="https://github.com/DPGAlliance/publicgoods-review-webapp/blob/main/TechArchitechture.md">Tech Architechture </a> present in this repository. 
+<br><br>You can also get involved with the larger DPGA ecosystem in [other ways](https://digitalpublicgoods.net/get-involved/). 
 
 
 <h3>  ⚖️ Governance </h3> 
