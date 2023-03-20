@@ -1,4 +1,4 @@
-<h1 align="center"> 📊 Tech Architechture </h1> 
+<h1 align="center"> 📊 Tech Infrastructure </h1> 
 
 <h3> 🔓 Deployment Guide </h3> 
 <br> This guide can be used for a fresh DPGA web app server in the production stage.
@@ -53,7 +53,7 @@ Open DNS settings and add an A record that points out to our server IP. Now wait
 <br><br>For cron setup we can follow <a href="https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804"> this guide </a>
 <br>
 <br>
-  <h3> 💻  Technical Architechture (Production)</h3>
+  <h3> 💻  Technical Infrastruture (Production)</h3>
 <br>
 
 Currently, we use AWS EC2 instance as production server to host the webapp.
