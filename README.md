@@ -26,7 +26,7 @@ Updating this project is useful in ensuring that we are following the best pract
 
 <h3>  🙋🏽 What is our aim and how can you help? </h3> 
 
-Our aim is to have 50 countries deploying at least 1 DPG each in the next 5 years. We need everyone’s help if we want to build a more tech-inclusive world and attain the [SDGs](https://sdgs.un.org/goals) set out by the United Nations for 2030. 
+We need everyone’s help if we want to build a more tech-inclusive world and attain the [SDGs](https://sdgs.un.org/goals) set out by the United Nations for 2030. 
 
 **We *actively* encourage people to contribute to this project.** 
 
