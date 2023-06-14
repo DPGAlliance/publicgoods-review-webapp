@@ -1,4 +1,4 @@
-<h1 align="center"> 🎯 Tech Architechture </h1> 
+<h1 align="center"> 🎯 Tech Architecture </h1> 
 This file contains details of the various capabilities and functionalities of the Digital Public Goods Webapp. 
 <br><br> All files being referred to here can be found in the Applications > Controllers folder of this repository. <a href="https://github.com/DPGAlliance/publicgoods-review-webapp/tree/main/application/controllers"> Here </a> is a quick link. 
 <br>
@@ -8,7 +8,7 @@ The Admin panel allows the administrators of this program to view graphs and sta
 <br>
 <h3> API  </h3> 
 
-The API file manages the site <a href="api.digitalpublicgoods.net"> api.digitalpublicgoods.net </a> and all related API. 
+The API file manages the site [api.digitalpublicgoods.net](https://api.digitalpublicgoods.net/) and all related API. 
 <br>
 <h3> Crons </h3> 
 
